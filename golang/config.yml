@@ -2,14 +2,16 @@ config:
   feeds:
     - https://umutaki.com/feed
   prompt:
+    title-prompt: |
+      Find a title for your article. Use the language of the article.
     system-prompt: |
       You are blog writer and you want to write a new article.
     user-prompt: |
       Write an article about "{{.Title}}"
-      Use markdown to format your article.
+      Use Wordpress html to format your article.
       For SEO purposes, please use headings and bold text.
       {{if .Content}}
-      Example Content:
+      Example content from another website. Do not include any source url, credits, closing speech from the example, do not copy-paste, write from scratch:
       {{.Content}}
       {{else if .Description}}
       Example Description:
