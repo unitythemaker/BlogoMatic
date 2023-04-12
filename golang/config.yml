@@ -11,7 +11,7 @@ config:
       Use Wordpress html to format your article.
       For SEO purposes, please use headings and bold text.
       {{if .Content}}
-      Example content from another website. Do not include any source url, credits, closing speech from the example, do not copy-paste, write from scratch:
+      Example content from another website. Do not include any source url, credits, closing speech from the example, do not copy-paste, write from scratch with your own sentences:
       {{.Content}}
       {{else if .Description}}
       Example Description:
