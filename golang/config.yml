@@ -1,6 +1,6 @@
 config:
   feeds:
-    - https://umutaki.com/feed
+    - https://example.com/feed
   prompt:
     title-prompt: |
       Find a title for your article. Use the language of the article.
