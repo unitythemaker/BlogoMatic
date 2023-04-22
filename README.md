@@ -29,3 +29,13 @@ into `go-backend` (`cd go-backend`) and running `go mod tidy`.
 1. Run the go-backend using `go run .`
 1. Now, check your Wordpress website to check if the post is
 published.
+
+## To-Do List
+
+- [ ] Select the best topic using OpenAI or select random
+post from feeds to write an article about instead of choosing
+the first one.
+- [ ] Make it user-friendly to be used with a Web UI.
+  - [ ] Maybe a cloud version that will allow users to
+  use the software without installing.
+- [ ] Add support for other blog softwares, maybe other LLMs.
