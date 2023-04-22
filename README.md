@@ -1,4 +1,4 @@
-# openai-wordpress
+# BlogoMatic
 
 This is the monorepo of the proejct OpenAI Wordpress.
 The goal of the project is to automatically publish
