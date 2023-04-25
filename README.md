@@ -39,3 +39,4 @@ the first one.
   - [ ] Maybe a cloud version that will allow users to
   use the software without installing.
 - [ ] Add support for other blog softwares, maybe other LLMs.
+- [ ] Check for previous posts to prevent duplicates
